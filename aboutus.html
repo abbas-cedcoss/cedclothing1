@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>About us</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,shrink-to-fit=no">
+      <link rel="icon" type="text/css" href="logo1.png">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+      <style type="text/css">
+         #ournameID{
+         animation-name: ourname;
+         animation-duration: 3s;
+         animation-iteration-count: infinite;
+         }
+         @keyframes ourname{
+         from{box-shadow: 0 0 5px black;}
+         to{box-shadow: 0 0 15px black;border-radius: 50px}
+         }
+         .parallax {
+         /* The image used */
+         background-image: 
+         linear-gradient(
+         rgba(0, 0, 0, 0.7),
+         rgba(0, 0, 0, 0.7)
+         ),
+         url(parImage.jpeg);
+         /* Set a specific height */
+         min-height: 445px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         }
+         .image1 {
+         opacity: 1;
+         display: block;
+         width: 100%;
+         height: auto;
+         transition: .5s ease;
+         backface-visibility: hidden;
+         }
+         .middle {
+         transition: .2s ease;
+         opacity: 0;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         text-align: center;
+         }
+         .container1:hover .image1 {
+         opacity: 0.5;
+         }
+         .container1:hover .middle {
+         opacity: 1;
+         }
+         .text1 {
+         background-color: #4CAF50;
+         color: white;
+         font-size: 25px;
+         padding: 10px 32px;
+         margin-top: -100px
+         }
+         .fb:hover{
+         opacity: 0.5;
+         }
+         .navHover:hover{
+         color: red;
+         border-bottom: 3px solid red;
+         }
+         .darken {
+         background-image: 
+         linear-gradient(
+         rgba(0, 0, 0, 0.7),
+         rgba(0, 0, 0, 0.7)
+         ),
+         url(productbanner.jpg);
+         width: 100%;
+         height: 500px;
+         object-fit: cover;
+         }
+         @media only screen and (max-width: 600px) {
+         .bgScroll{
+         align-content: center;
+         background-color: black;
+         opacity: 0.7;
+         padding: 2px;
+         text-align: center;
+         color: white
+         }
+         .alignTxt
+         {
+         text-align: center;
+         }
+         .alignImage {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 110px;
+         height: 110px; 
+         }
+         /* Small devices (portrait tablets and large phones, 600px and up) */
+         @media only screen and (min-width: 600px) {
+         }
+         /* Medium devices (landscape tablets, 768px and up) */
+         @media only screen and (min-width: 768px) {...}
+         /* Large devices (laptops/desktops, 992px and up) */
+         @media only screen and (min-width: 992px) {...}
+         /* Extra large devices (large laptops and desktops, 1200px and up) */
+         @media only screen and (min-width: 1200px) {...} 
+      </style>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-sm fixed-top" style="background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.8));">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+            <span><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link bgScroll text-uppercase navHover" href="index.html" style="color: white; font-family: Anton;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link bgScroll text-uppercase navHover" href="product.html" style="color: white;font-family: Anton">Products</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link bgScroll text-uppercase navHover" href="aboutus.html" style="color: red;font-family: Anton">About us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link bgScroll text-uppercase navHover" href="contact.html" style="color: white;font-family: Anton">Contact us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link bgScroll text-uppercase navHover" href="faq.html" style="color: white;font-family: Anton">FAQs</a>
+                  </li>
+               </ul>
+               <div id="invi" class="ml-auto">
+                  <ul class="navbar-nav">
+                     <li>
+                        <form class="bgScroll navHover">
+                           <input class="bgScroll" style="font-size: 10px;margin-top: 8px;" type="text" name="" placeholder="search">
+                        </form>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link bgScroll text-uppercase navHover" href="#" style="color: white;;font-family: Anton">SIGN-UP</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!--End of navbar-->
+      <div class="darken">
+         <h1 style="color: white;padding-top: 200px;font-family: cursive;" align="center">CED CLOTHING</h1>
+         <P style="text-align: center;color: white;font-family: cursive;letter-spacing: 2px;">The affordable fashion</P>
+         <div align="center" style="font-size: 30px">
+            <i class="fab fa-facebook" style=" color: white;border-radius: 50%"></i>
+            <i class="fab fa-twitter-square" style="color: white"></i>
+            <i class="fab fa-google-plus-square" style="color: white"></i>
+            <i class="fab fa-instagram-square" style="color: white"></i>
+         </div>
+      </div>
+      <!-- end of banner -->
+      <div class="container mt-5">
+         <h4 style="border-bottom: 1px solid #C0C0C0;padding-bottom: 15px">Our background</h4>
+      </div>
+      <div class="container mt-5 " id="abtCedClothing" >
+         <div class="row pt-3 pb-3" style="font-family: cursive;">
+            <div class="col-sm" style="padding: 10px;padding-bottom: 15px">
+               <img align="center" class="img-fluid" src="aboutImage.jpg">
+            </div>
+            <div class="col-sm" style="">
+               <h5 class="mt-2" align="left" style="color: #2a52be;font-family: Roboto;font-size: 22px">Who we are & What we do?</h5>
+               <p class="text-muted" style="font-family: Montserrat;font-size: 14px">This template is free to use for your business websites. However, you have no permission to redistribute the downloadable ZIP file on any template collection website. Contact us for more info.
+               <ol class="text-muted" style="font-family: Montserrat;font-size: 14px;list-style-type:square">
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Consectetur an adipisicing elit</li>
+                  <li>It aquecorporis nulla aspernatur</li>
+                  <li>Corporis, omnis doloremque</li>
+                  <li>Non cum id reprehenderit</li>
+               </ol>
+               <div align="" style="font-size: 30px">
+                  <i class="fb fab fa-facebook" style=" color: black;border-radius: 50%"></i>
+                  <i class="fb fab fa-twitter-square" style="color: black"></i>
+                  <i class="fb fab fa-google-plus-square" style="color: black"></i>
+                  <i class="fb fab fa-instagram" style="color: black"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end -->
+      <div id="teamMembers" class="container mt-5">
+         <h4 style="border-bottom: 1px solid #C0C0C0;padding-bottom: 15px">Our team members</h4>
+         <div class="row">
+            <div class="col-md-4 container1">
+               <img class="image1" src="team1.jpeg" alt="Avatar" class="image" style="width:100%">
+               <div class="middle">
+                  <div class="text1">
+                     <a href=""><i class="fb fab fa-facebook" style=" color: black;border-radius: 50%"></i></a>
+                     <a href=""><i class="fb fab fa-twitter-square" style="color: black"></i></a>
+                     <a href=""><i class="fb fab fa-google-plus-square" style="color: black"></i></a>
+                     <a href=""><i class="fb fab fa-instagram" style="color: black"></i></a>
+                  </div>
+               </div>
+               <div>
+                  <h5 align="center" style="color:#2a52be" class="pt-2">Rick Grimes</h5>
+                  <p align="center" style="color: #DC143C;font-family: Montserrat">CO-Founder</p>
+                  <p align="center" class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+               </div>
+            </div>
+            <div class="col-md-4 container1">
+               <img class="image1" src="team2.jpeg" alt="Avatar" class="image" style="width:100%">
+               <div class="middle">
+                  <div class="text1">
+                     <a href=""><i class="fb fab fa-facebook" style=" color: black;border-radius: 50%"></i></a>
+                     <a href=""><i class="fb fab fa-twitter-square" style="color: black"></i></a>
+                     <a href=""><i class="fb fab fa-google-plus-square" style="color: black"></i></a>
+                     <a href=""><i class="fb fab fa-instagram" style="color: black"></i></a>
+                  </div>
+               </div>
+               <div>
+                  <h5 align="center" style="color:#2a52be" class="pt-2">Rosita Espinosa</h5>
+                  <p align="center" style="color: #DC143C;font-family: Montserrat">Product Expert</p>
+                  <p align="center" class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+               </div>
+            </div>
+            <div class="col-md-4 container1">
+               <img class="image1" src="team3.jpeg" alt="Avatar" class="image" style="width:100%">
+               <div class="middle">
+                  <div class="text1">
+                     <a href=""><i class="fb fab fa-facebook" style=" color: black;border-radius: 50%"></i></a>
+                     <a href=""><i class="fb fab fa-twitter-square" style="color: black"></i></a>
+                     <a href=""><i class="fb fab fa-google-plus-square" style="color: black"></i></a>
+                     <a href=""><i class="fb fab fa-instagram" style="color: black"></i></a>
+                  </div>
+               </div>
+               <div>
+                  <h5 align="center" style="color:#2a52be" class="pt-2">Daryl Dixon</h5>
+                  <p align="center" style="color: #DC143C;font-family: Montserrat">Chief Marketing</p>
+                  <p align="center" class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+               </div>
+            </div>
+            <div class="col-md-4 container1">
+               <img class="image1" src="team4.jpeg" alt="Avatar" class="image" style="width:100%">
+               <div class="middle">
+                  <div class="text1">
+                     <a href=""><i class="fb fab fa-facebook" style=" color: black;border-radius: 50%"></i></a>
+                     <a href=""><i class="fb fab fa-twitter-square" style="color: black"></i></a>
+                     <a href=""><i class="fb fab fa-google-plus-square" style="color: black"></i></a>
+                     <a href=""><i class="fb fab fa-instagram" style="color: black"></i></a>
+                  </div>
+               </div>
+               <div>
+                  <h5 align="center" style="color:#2a52be" class="pt-2">Maggie Greene</h5>
+                  <p align="center" style="color: #DC143C;font-family: Montserrat">Product Specialist</p>
+                  <p align="center" class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+               </div>
+            </div>
+            <div class="col-md-4 container1">
+               <img class="image1" src="team5.jpeg" alt="Avatar" class="image" style="width:100%">
+               <div class="middle">
+                  <div class="text1">
+                     <a href=""><i class="fb fab fa-facebook" style=" color: black;border-radius: 50%"></i></a>
+                     <a href=""><i class="fb fab fa-twitter-square" style="color: black"></i></a>
+                     <a href=""><i class="fb fab fa-google-plus-square" style="color: black"></i></a>
+                     <a href=""><i class="fb fab fa-instagram" style="color: black"></i></a>
+                  </div>
+               </div>
+               <div>
+                  <h5 align="center" style="color:#2a52be" class="pt-2">Shane Walsh</h5>
+                  <p align="center" style="color: #DC143C;font-family: Montserrat">Product Photographer</p>
+                  <p align="center" class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+               </div>
+            </div>
+            <div class="col-md-4 container1">
+               <img class="image1" src="team6.jpeg" alt="Avatar" class="image" style="width:100%">
+               <div class="middle">
+                  <div class="text1">
+                     <a href=""><i class="fb fab fa-facebook" style=" color: black;border-radius: 50%"></i></a>
+                     <a href=""><i class="fb fab fa-twitter-square" style="color: black"></i></a>
+                     <a href=""><i class="fb fab fa-google-plus-square" style="color: black"></i></a>
+                     <a href=""><i class="fb fab fa-instagram" style="color: black"></i></a>
+                  </div>
+               </div>
+               <div>
+                  <h5 align="center" style="color:#2a52be" class="pt-2">Tara Chambler</h5>
+                  <p align="center" style="color: #DC143C;font-family: Montserrat">General Manager</p>
+                  <p align="center" class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end of teamMembers -->
+      <div id="parrlaxID" class="container-fluid mt-5" >
+         <div class="parallax img-fluid">
+            <div class="container">
+               <div align="center" class="pt-5 row">
+                  <div class="col-md-4">
+                     <div class="container pt-5 mb-4" style="background-color: #eee;height: 350px">
+                        <!-- To hold gear and text -->
+                        <div align="center">
+                           <!-- gear log -->
+                           <i class="fa fa-gear p-4" style="font-size: 30px; background-color: #dc3545;color: white"></i>
+                        </div>
+                        <div class="" style="" >
+                           <!-- other text -->
+                           <h5 class=" mt-5" style="color: #2a52be">Product Management</h5>
+                           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
+                           <a href="#" style="font-family: Montserrat; background-color:#dc3545;border-radius: 5px;font-size: 12px;color: white;padding: 10px ">Read more</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="container pt-5 mb-4" style="background-color: #eee;height: 350px">
+                        <!-- To hold gear and text -->
+                        <div align="center">
+                           <!-- gear log -->
+                           <i class="fa fa-gear p-4" style="font-size: 30px; background-color: #dc3545;color: white"></i>
+                        </div>
+                        <div class="" style="" >
+                           <!-- other text -->
+                           <h5 class=" mt-5" style="color: #2a52be">Customer relations</h5>
+                           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
+                           <a href="" style="font-family: Montserrat; background-color:#dc3545;border-radius: 5px;font-size: 12px;color: white;padding: 10px ">Details</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="container pt-5 mb-4" style="background-color: #eee;height: 350px">
+                        <!-- To hold gear and text -->
+                        <div align="center">
+                           <!-- gear log -->
+                           <i class="fa fa-gear p-4" style="font-size: 30px; background-color: #dc3545;color: white"></i>
+                        </div>
+                        <div class="" style="" >
+                           <!-- other text -->
+                           <h5 class=" mt-5" style="color: #2a52be">Global collection</h5>
+                           <p class="text-muted">Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
+                           <a href="" style="font-family: Montserrat; background-color:#dc3545;border-radius: 5px;font-size: 12px;color: white;padding: 10px ">Read more</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end of parrlaxID -->
+      <div id="ourTeam" class="container mt-5">
+         <div class="container" style="background-color: #eee;">
+            <!-- #152525 -->
+            <div align="center" class="pt-4" align="center">
+               <h4 id="ournameID" class="p-4" style="width: 200px; background-color: #009c9b;color: white">Our team</h4>
+            </div>
+            <div class="container pt-3">
+               <div class="row">
+                  <div class="col-md-6">
+                     <!-- For card -->
+                     <div id="rowtocol" class="row">
+                        <div class="col-md-2">
+                           <!-- image holder -->
+                           <img class="alignImage" src="partner1.png" width="110px" height="110px" style="border-radius: 100px;box-shadow: 0 0 10px black">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-9">
+                           <!-- text holder -->
+                           <h4 id="walterID" style="font-size: 25px;letter-spacing: px" class="alignTxt text-uppercase">Walter White</h4>
+                           <p style="font-family: Montserrat" class="alignTxt">Designer</p>
+                           <p class="text-muted alignTxt">Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="row">
+                        <div class="col-md-2">
+                           <!-- image holder -->
+                           <img class="alignImage" src="partner2.png" width="110px" height="110px" style="border-radius: 100px;box-shadow: 0 0 10px black">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-9">
+                           <!-- text holder -->
+                           <h4 style="font-size: 25px letter-spacing: 1px" class="text-uppercase alignTxt">Jessie Pinkman</h4>
+                           <p style="font-family: Montserrat" class="alignTxt">Designer</p>
+                           <p class="text-muted alignTxt" >Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- For card -->
+               </div>
+               <!-- end of row -->
+               <div class="row">
+                  <div class="col-md-6">
+                     <!-- For card -->
+                     <div class="row">
+                        <div class="col-md-2">
+                           <!-- image holder -->
+                           <img class="alignImage" src="partner3.png" width="110px" height="110px" style="border-radius: 100px;box-shadow: 0 0 10px black">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-9">
+                           <!-- text holder -->
+                           <h4 style="font-size: 25px letter-spacing: 1px" class="alignTxt text-uppercase">Saul Goodman</h4>
+                           <p style="font-family: Montserrat" class="alignTxt">Designer</p>
+                           <p class="text-muted alignTxt">Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="row">
+                        <div class="col-md-2">
+                           <!-- image holder -->
+                           <img class="alignImage" src="partner4.png" width="110px" height="110px" style="border-radius: 100px;box-shadow: 0 0 10px black">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-9">
+                           <!-- text holder -->
+                           <h4 style="font-size: 25px letter-spacing: 1px" class="text-uppercase alignTxt">Gus Fring</h4>
+                           <p style="font-family: Montserrat" class="alignTxt">Designer</p>
+                           <p class="text-muted alignTxt">Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- For card -->
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer class="container mt-5 p-5" style="border-top: 1px solid #C0C0C0">
+         <p align="center" class="text-muted text-uppercase" style="font-size: 11px; font-family: Montserrat">Copyright © 2020 Ced Clothing Co. Ltd. - Design: <span style="color: #dc3545">YamZaidi</span></p>
+      </footer>
+   </body>
+</html>
